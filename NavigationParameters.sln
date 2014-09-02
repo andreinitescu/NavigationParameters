@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationParameters.Droid", "NavigationParameters.Droid\NavigationParameters.Droid.csproj", "{813AE7EB-347E-4650-B135-147C13335E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationParameters.Core", "NavigationParameters.Core\NavigationParameters.Core.csproj", "{39BE6FEB-16B9-411B-8002-BBD584BEE2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39BE6FEB-16B9-411B-8002-BBD584BEE2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BE6FEB-16B9-411B-8002-BBD584BEE2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BE6FEB-16B9-411B-8002-BBD584BEE2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BE6FEB-16B9-411B-8002-BBD584BEE2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813AE7EB-347E-4650-B135-147C13335E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813AE7EB-347E-4650-B135-147C13335E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813AE7EB-347E-4650-B135-147C13335E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813AE7EB-347E-4650-B135-147C13335E65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NavigationParameters.Droid\NavigationParameters.Droid.csproj
+	EndGlobalSection
+EndGlobal
