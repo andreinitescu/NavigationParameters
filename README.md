@@ -23,6 +23,8 @@ https://github.com/MvvmCross/MvvmCross/blob/e6d10972b5c28e00e80acc3d9e8910961aa8
 
 In NavigationParameters.Droid, I subclass <code>MvxAndroidViewsContainer</code> and override <code>AdjustIntentForPresentation</code> to add Android ActivityFlags based on Mvx presentation values.
 
+The code uses Android 11 (Android 3.0) ActivityFlags.ClearTask.
+
 This is one way to do it. 
 
 Another way would be if the View-Model's do not actually declare how the navigation should work like. 
