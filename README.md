@@ -21,4 +21,4 @@ Which is called by MvxAndroidViewPresenter:
 https://github.com/MvvmCross/MvvmCross/blob/e6d10972b5c28e00e80acc3d9e8910961aa813d6/Cirrious/Cirrious.MvvmCross.Droid/Views/MvxAndroidViewPresenter.cs#L45
 https://github.com/MvvmCross/MvvmCross/blob/e6d10972b5c28e00e80acc3d9e8910961aa813d6/Cirrious/Cirrious.MvvmCross.Droid/Views/MvxAndroidViewPresenter.cs#L28
 
-In NavigationParameters, <code>MvxAndroidViewsContainer</code> is subclassed and <code>AdjustIntentForPresentation</code> overriden.
+In NavigationParameters.Droid, I subclass <code>MvxAndroidViewsContainer</code> and override <code>AdjustIntentForPresentation</code> to add Android ActivityFlags based on Mvx presentation values
